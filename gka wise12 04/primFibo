@@ -1,0 +1,25 @@
+graph G {
+node [fontname=Verdana,fontsize=12]
+node [style=filled]
+node [fillcolor="#CCCCCC"]
+node [color="#EEEEEE"]
+edge [color="#31CEF0"]
+"f - 0";
+"g - 0";
+"d - 0";
+"e - 0";
+"b - 0";
+"c - 0";
+"a - 0";
+"b - 0" -- "d - 0" [weight=9 ] [label=9 ] ;
+"d - 0" -- "e - 0" [weight=15 ] [label=15 ] ;
+"c - 0" -- "e - 0" [weight=5 ] [label=5 ] [color="#FF0000"][penwidth=3];
+"b - 0" -- "e - 0" [weight=7 ] [label=7 ] ;
+"g - 0" -- "e - 0" [weight=9 ] [label=9 ] ;
+"g - 0" -- "f - 0" [weight=11 ] [label=11 ] [color="#FF0000"][penwidth=3];
+"b - 0" -- "a - 0" [weight=7 ] [label=7 ] [color="#FF0000"][penwidth=3];
+"b - 0" -- "c - 0" [weight=8 ] [label=8 ] [color="#FF0000"][penwidth=3];
+"e - 0" -- "f - 0" [weight=8 ] [label=8 ] ;
+"d - 0" -- "f - 0" [weight=6 ] [label=6 ] [color="#FF0000"][penwidth=3];
+"a - 0" -- "d - 0" [weight=5 ] [label=5 ] [color="#FF0000"][penwidth=3];
+}
